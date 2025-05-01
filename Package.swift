@@ -6,22 +6,26 @@ import PackageDescription
 let package = Package(
     name: "IRFoundation",
     defaultLocalization: "en",
-    platforms: [.iOS(.v18)],
+    platforms: [
+        .iOS(.v18)
+    ],
     products: [
         .library(
             name: "IRFoundation",
-            targets: ["IRFoundation"]),
+            targets: ["IRFoundation"]
+        ),
     ],
     dependencies: [
-        
+        // Add external packages here when needed
     ],
     targets: [
         .target(
             name: "IRFoundation",
-            dependencies: [
-                
-            ],
-            path: "IRFoundation"
+            dependencies: []
         ),
+        .testTarget(
+            name: "IRFoundationTests",
+            dependencies: ["IRFoundation"]
+        )
     ]
 )
