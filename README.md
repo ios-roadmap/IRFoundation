@@ -39,7 +39,7 @@ IRFoundation is distributed via **Swift Package Manager**.
 1. **File ▸ Add Packages…**
 2. Enter the repo URL:
    ```
-   https://github.com/iosroadmap/IRFoundation.git
+   https://github.com/ios-roadmap/IRFoundation.git
    ```
 3. Select **Up to Next Major Version** (starting from **0.0.1**).
 
@@ -134,5 +134,5 @@ Released under the **MIT Licence** – see `LICENCE`.
 ## 12. Changelog
 ### 0.0.1 – *2025‑05‑02*
 * 🚀 Initial public release.  
-* Common, Primitive.String, Resources, StyleKit & UIKit components.  
+* Common, Primitive.String, Resources, StyleKit & UIKit, SwiftUI components.  
 * 100 % unit‑tested, GitHub Actions CI.
