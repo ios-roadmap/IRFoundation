@@ -21,11 +21,13 @@ let package = Package(
     targets: [
         .target(
             name: "IRFoundation",
-            dependencies: []
+            dependencies: [],
+            path: "IRFoundation"
         ),
         .testTarget(
             name: "IRFoundationTests",
-            dependencies: ["IRFoundation"]
+            dependencies: ["IRFoundation"],
+            path: "IRFoundationTests"
         )
     ]
 )
