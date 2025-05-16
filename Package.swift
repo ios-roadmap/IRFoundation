@@ -21,7 +21,8 @@ let package = Package(
     targets: [
         .target(
             name: "IRFoundation",
-            dependencies: []
-        ),
+            dependencies: [],
+            path: "IRFoundation"
+        )
     ]
 )
