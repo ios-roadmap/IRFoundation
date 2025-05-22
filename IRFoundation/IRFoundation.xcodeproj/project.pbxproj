@@ -44,11 +44,6 @@
 			path = IRFoundation;
 			sourceTree = "<group>";
 		};
-		6460BB3D2DCA8B5400F4C7B7 /* IRFoundationTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IRFoundationTests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				6460BB332DCA8B5400F4C7B7 /* IRFoundation */,
-				6460BB3D2DCA8B5400F4C7B7 /* IRFoundationTests */,
 				6460BB322DCA8B5400F4C7B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,9 +130,6 @@
 			);
 			dependencies = (
 				6460BB3C2DCA8B5400F4C7B7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6460BB3D2DCA8B5400F4C7B7 /* IRFoundationTests */,
 			);
 			name = IRFoundationTests;
 			packageProductDependencies = (
